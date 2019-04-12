@@ -1,0 +1,46 @@
+{
+  "name": "ejs-canjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "steal": {
+    "plugins": [
+      "steal-stache",
+      "can-ejs"
+    ]
+  },
+  "dependencies": {
+    "can": "^3.14.0",
+    "can-connect": "^3.0.6",
+    "can-route-pushstate": "^5.0.11",
+    "can-set": "^1.6.0",
+    "can-stache": "^4.17.12",
+    "can-stache-bindings": "^4.10.0",
+    "can-ajax": "^2.2.1",
+    "can-component": "3.3.10",
+    "can-compute": "^4.1.0",
+    "can-construct": "^3.5.3",
+    "can-construct-super": "^3.2.0",
+    "can-control": "^4.4.1",
+    "can-define": "^1.5.7",
+    "can-ejs": "^3.2.0",
+    "can-event": "^3.7.7",
+    "can-fixture": "^3.0.4",
+    "can-legacy-view-helpers": "^1.0.0",
+    "can-list": "^4.2.0",
+    "can-map": "^4.3.3",
+    "can-map-backup": "^4.0.0",
+    "can-migrate": "^2.2.3",
+    "can-model": "^3.0.3",
+    "can-observation": "^3.3.6",
+    "can-route": "^4.4.6",
+    "can-util": "^3.14.0",
+    "steal": "^2.2.1",
+    "steal-stache": "^4.1.2"
+  }
+}
